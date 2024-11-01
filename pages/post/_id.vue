@@ -22,7 +22,7 @@
           { hid: 'og:title', property: 'og:title', content: this.post.title },
           { hid: 'og:description', property: 'og:description', content: this.post.body.slice(0, 160) },
           { hid: 'og:image', property: 'og:image', content: this.post.img || `https://picsum.photos/id/${this.post.id+10}/800/400` },
-          { hid: 'og:url', property: 'og:url', content: `https://nuxtblog.ssamdtwo.aawssm.in/post/${this.post.id}` },
+          { hid: 'og:url', property: 'og:url', content: `https://blog.asarmtwo.aawssm.in/post/${this.post.id}` },
           { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
         ],
       }

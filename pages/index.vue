@@ -76,8 +76,8 @@ export default {
         { hid: 'description', name: 'description', content: 'Browse our latest blog posts' },
         { hid: 'og:title', property: 'og:title', content: 'Blog Posts' },
         { hid: 'og:description', property: 'og:description', content: 'Browse our latest blog posts' },
-        { hid: 'og:image', property: 'og:image', content: 'https://nuxtblog.ssamdtwo.aawssm.in/og-image.jpg' },
-        { hid: 'og:url', property: 'og:url', content: 'https://nuxtblog.ssamdtwo.aawssm.in' },
+        { hid: 'og:image', property: 'og:image', content: 'https://blog.asarmtwo.aawssm.in/og-image.jpg' },
+        { hid: 'og:url', property: 'og:url', content: 'https://blog.asarmtwo.aawssm.in' },
         { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       ],
     }

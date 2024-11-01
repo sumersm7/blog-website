@@ -48,7 +48,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   sitemap: {
-    hostname: 'https://nuxtblog.ssamdtwo.aawssm.in',
+    hostname: 'https://blog.asarmtwo.aawssm.in',
     gzip: true,
     routes: async () => {
       const { data } = await axios.get(
@@ -60,6 +60,6 @@ export default {
   robots: {
     UserAgent: '*',
     Disallow: '',
-    Sitemap: 'https://nuxtblog.ssamdtwo.aawssm.in/sitemap.xml',
+    Sitemap: 'https://blog.asarmtwo.aawssm.in/sitemap.xml',
   },
 }
