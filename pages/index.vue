@@ -54,7 +54,7 @@ export default {
       this.posts = data.splice(start, this.limit)
       this.currentPage = page 
       this.totalPages = this.posts.length < this.limit? page  : page+2
-      console.log(`page ${page} posts ${this.posts.length} total ${this.totalPages}`)
+      // console.log(`page ${page} posts ${this.posts.length} total ${this.totalPages}`)
     },
     changePage(page) {
       if (page < 1 || page > this.totalPages) return
